@@ -1,4 +1,4 @@
-# Arquivos e diretórios padrão do Python
+# Python
 __pycache__/
 *.py[cod]
 *.pyo
@@ -6,13 +6,38 @@ __pycache__/
 *.db
 *.sqlite
 
-# Ambientes virtuais
+# Ambientes Virtuais
 venv/
 env/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Arquivos de Ambiente
 .env
 
-# Arquivos de configuração do Jupyter
-.ipynb_checkpoints/
-
-# Arquivos de log
+# Arquivos de Log
 *.log
+
+# IDEs e Editor de Texto
+.vscode/
+.idea/
+
+# Arquivos de Cache
+*.cache
+*.tmp
+
+# Configurações de Testes e Outros
+*.coverage
+*.tox/
+*.nox/
+*.hypothesis/
+*.pytest_cache/
+
+# Arquivos de Configuração do Jupyter
+*.ipynb
+*.jupyter/
+
